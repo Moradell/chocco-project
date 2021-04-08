@@ -68,3 +68,39 @@
 
 ### <a name="description-adaptive"></a> Адаптивный вариант тех же секций
 
+1. Main section <br>
+
+![main-section-adaptive](https://user-images.githubusercontent.com/29666697/114017991-1641a900-98b0-11eb-84a9-96844e6731fe.png)
+![menu-section-adaptive-burger](https://user-images.githubusercontent.com/29666697/114018007-1a6dc680-98b0-11eb-8744-5956bb7862b4.png)
+
+2. "Why" section <br>
+
+![why-section-adaptive](https://user-images.githubusercontent.com/29666697/114018116-3e310c80-98b0-11eb-8c1f-5196db0d32aa.png)
+
+3. Slider section <br>
+
+![slider-section-adaptive](https://user-images.githubusercontent.com/29666697/114018223-59038100-98b0-11eb-8e0a-128ed4f9a59d.png)
+
+4. Team section <br>
+
+![team-section-adaptive](https://user-images.githubusercontent.com/29666697/114018277-66b90680-98b0-11eb-94fc-32bec31e0a5d.png)
+
+5. Products section <br>
+
+![menu-section-adaptive](https://user-images.githubusercontent.com/29666697/114018348-789aa980-98b0-11eb-967e-080f7c46478f.png)
+
+6. Reviews section <br>
+
+![reviews-section-adaptive](https://user-images.githubusercontent.com/29666697/114018403-88b28900-98b0-11eb-9e04-a685019bc495.png)
+
+7. Player section <br>
+
+![player-section-adaptive](https://user-images.githubusercontent.com/29666697/114018439-92d48780-98b0-11eb-8ea7-668c8ce66b33.png)
+
+8. Order section <br>
+
+![order-section-adaptive](https://user-images.githubusercontent.com/29666697/114018470-9b2cc280-98b0-11eb-99fa-11dadfdb645b.png)
+
+9. Map section <br>
+
+![map-section-adaptive](https://user-images.githubusercontent.com/29666697/114018585-be577200-98b0-11eb-91c6-bb79256ba21b.png)
