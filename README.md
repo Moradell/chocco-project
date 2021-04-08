@@ -57,3 +57,4 @@
 ![map-section](https://user-images.githubusercontent.com/29666697/114005073-8e08d700-98a2-11eb-8f09-9674f788918c.png)
 
 ### <a name="description-adaptive"></a> Адаптивный вариант тех же секций
+
