@@ -1,6 +1,6 @@
 # Chocco-project
 
-Посмотреть проект можно на [GitHub Pages](https://moradell.github.io/chocco-project/)
+Посмотреть проект можно на [GitHub Pages](https://moradell.github.io/chocco-project/) <br>
 Проект адаптирован, присутствует два ключевых брейкпоинта - 768px и 480px, все что между - responsive
 
 ## Навигация по документу
