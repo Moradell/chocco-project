@@ -32,7 +32,7 @@
 
 5. В пятой секции представлен очередной аккардеон, но в этот раз вертикальный
 
-![menu-section-1](https://user-images.githubusercontent.com/29666697/114001912-bcd17e00-989f-11eb-9354-6324a9b1dddc.png)
+![menu-section-1](https://user-images.githubusercontent.com/29666697/114006630-f4422980-98a3-11eb-8843-19274e9d3381.png)
 ![menu-section-2](https://user-images.githubusercontent.com/29666697/114001988-ce1a8a80-989f-11eb-9180-0058237cca61.png)
 
 6. Шестая секция - с отзывами
