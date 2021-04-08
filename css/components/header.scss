@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.phone-number {
+  display: flex;
+  align-items: center;
+  font-size: rem(24px);
+  text-decoration: none;
+}
+
+.phone-icon-header {
+  fill: white;
+  width: rem(14px);
+  height: rem(14px);
+  margin-right: rem(6px);
+}
+
+.phone-icon-footer {
+  width: rem(12px);
+  height: rem(12px);
+  fill: #497870;
+  margin-right: rem(7px);
+}
+
+.phone-number__text {
+  white-space: nowrap;
+
+  &--green {
+    color: #497870;
+  }
+}
+
+
+.phone-number.header__phone-number {
+  @include tablets {
+    display: none;
+  }
+}
+
+.phone-number__icon {
+  flex-shrink: 0;
+}

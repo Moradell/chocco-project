@@ -1,0 +1,19 @@
+.slider-section {
+  background-color: #F8FAF9;
+  z-index: -1;
+  position: relative;
+
+  &::before {
+    content: url("./../../img/fon_fern.png");
+    position: absolute;
+    right: 0px;
+    bottom: -17%;
+  }
+
+  &::after {
+    content: url("./../../img/blueberry_prod.png");
+    position: absolute;
+    right: 0;
+    bottom: -8%;
+  }
+}

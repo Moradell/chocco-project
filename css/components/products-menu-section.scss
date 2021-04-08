@@ -1,0 +1,25 @@
+.products-menu-section {
+  background: url("./../../img/Slider.png") center center / cover no-repeat;
+  position: relative;
+  color: #fff;
+
+  &::after {
+    content: url("./../../img/resberry_menu.png");
+    position: absolute;
+    top: rem(-65px);
+    left: rem(35px);
+  }
+}
+
+.products-menu-section__title {
+  font-size: rem(48px);
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  left: 7%;
+  top: 10%;
+
+  @include phones {
+    font-size: rem(40px);
+  }
+}

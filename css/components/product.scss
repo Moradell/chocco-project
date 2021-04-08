@@ -1,0 +1,173 @@
+.product {
+  display: flex;
+  align-items: center;
+
+  @include tablets {
+    flex-direction: column;
+  }
+
+  
+  &::before {
+    content: url("./../../img/leaf_product2.png");
+    position: absolute;
+    left: 2%;
+    top: 27%;
+
+    @include tablets {
+      left: 17%;
+      top: 15%;
+    }
+
+    @include phones {
+      left: 2%;
+      top: 6%;
+    }
+  }
+
+  &::after {
+    content: url("./../../img/leaf_product.png");
+    position: absolute;
+    bottom: 0%;
+    left: 35%;
+
+    @include tablets {
+      bottom: 43%;
+      left: 68%;
+    }
+
+    @include phones {
+      bottom: 47%;
+      left: 68%;
+    }
+  }
+}
+
+.product__col {
+  flex: 1;
+  margin-right: rem(40px);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.product__content {
+
+  @include tablets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+}
+
+.product__content-img {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: rem(91px);
+  width: rem(91px);
+  background: #86C3D7;
+  border-radius: rem(5px);
+  margin-bottom: rem(23px);
+
+  &:hover .composition {
+    left: 100%;
+    opacity: 1;
+  }
+
+  @include tablets {
+    display: none;
+  }
+}
+
+.product__content-img-text {
+  font-size: rem(18px);
+  font-weight: bold;
+  color: #fff;
+}
+
+.product-icon {
+  width: rem(46px);
+  height: rem(46px);
+  fill: #fff;
+}
+
+.product__title {
+  font-size: rem(36px);
+  font-weight: bold;
+  color: $black;
+  line-height: 1.2;
+  margin-bottom: rem(26px);
+  text-transform: uppercase;
+
+  @include tablets {
+    font-size: rem(30px);
+    margin-bottom: rem(17px);
+    text-align: center;
+  }
+}
+
+.product__description {
+  width: 80%;
+
+  @include tablets {
+    width: 75%;
+  }
+
+  
+  @include phones {
+    width: 86%;
+  }
+}
+
+.product__text {
+  margin-bottom: rem(20px);
+  line-height: 1.2;
+
+  @include tablets {
+    text-align: center;
+  }
+}
+
+.product__property {
+  display: flex;
+  margin-bottom: rem(9px);
+
+  @include tablets {
+    justify-content: center;
+  }
+}
+
+.product__property-block {
+  display: flex;
+  flex-direction: column;
+  margin-right: rem(46px);
+
+  &-text {
+    font-weight: bold;
+    color: #000;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.product__order {
+  display: flex;
+  align-items: center;
+
+  @include tablets {
+    justify-content: center;
+  }
+}
+
+.product__price {
+  font-size: rem(60px);
+  font-weight: 300;
+  color: #151515;
+  margin-right: rem(30px);
+  white-space: nowrap;
+}

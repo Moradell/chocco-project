@@ -1,0 +1,27 @@
+.benefits-section {
+  position: relative;
+  background: url("./../../img/leaf2.png") left top 50% no-repeat;
+
+  @include tablets {
+    background-position: left top 9%;
+  }
+
+  @include phones {
+    background: none;
+  }
+
+  &::before {
+    content: url(./../../img/berry.png);
+    position: absolute;
+    bottom: rem(-80px);
+    left: 0;
+
+    @include tablets {
+      bottom: rem(-122px);
+    }
+
+    @include phones {
+      content: none;
+    }
+  }
+}

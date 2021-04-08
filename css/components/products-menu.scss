@@ -1,0 +1,48 @@
+.products-menu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+
+.products-menu__item {
+  display: flex;
+}
+
+.products-menu__title {
+  position: relative;
+  width: rem(102px);
+  text-decoration: none;
+
+  @include phones {
+    width: rem(90px);
+  }
+}
+
+.products-menu__img {
+  height: 100%;
+}
+
+.products-menu__text {
+  transform: rotate(-90deg) translate(120%);
+  white-space: nowrap;
+  font-size: rem(48px);
+  font-weight: 700;
+
+  @include phones {
+    font-size: rem(40px);
+  }
+}
+
+.products-menu__content {
+  background: rgba(51, 53, 55, 0.9);
+  overflow: hidden;
+  width: 0;
+  position: relative;
+  transition: width .7s;
+}
+
+.product-menu__container {
+  padding: rem(30px) rem(80px) rem(38px);
+}

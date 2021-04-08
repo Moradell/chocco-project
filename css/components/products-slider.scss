@@ -1,0 +1,39 @@
+.products-slider {
+  position: relative;
+
+  .bx-wrapper {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+}
+
+.products-slider__arrow {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(18%);
+  z-index: 10;
+
+  @include tablets {
+    top: 26%;
+  }
+
+  @include phones {
+    top: 18%;
+  }
+
+  &--next {
+    right: 0;
+  }
+
+  &--prev {
+    left: 0;
+    transform: rotate(180deg);
+  }
+}
+
+.slider-arrow {
+  width: rem(24px);
+  height: rem(40px);
+}

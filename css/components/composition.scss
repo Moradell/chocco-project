@@ -1,0 +1,35 @@
+.composition-icon {
+  fill: #000;
+  width: rem(24px);
+  height: rem(24px);
+  margin-right: rem(16px);
+}
+
+.composition {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  left: rem(-9999px);
+  width: rem(273px);
+  min-height: rem(344px);
+  background:rgba(213,213,213, 0.8);
+  font-size: rem(16px);
+  color: #000;
+  padding: rem(28px) rem(25px);
+  border-radius: rem(5px);
+  transition: opacity 0.3s;
+}
+
+.composition__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: rem(28px);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.composition__value {
+  margin-left: auto;
+}

@@ -1,0 +1,70 @@
+.button {
+  padding: rem(21px) rem(43px);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: rem(16px);
+  font-weight: 800;
+  border-radius: rem(35px);
+  line-height: 1;
+  border: none;
+  outline: none;
+
+  @include phones {
+    padding: rem(21px) rem(39px);
+    font-size: rem(19px);
+  }
+
+  &--bg--white {
+    background: #fff;
+    color: #365A49;
+
+    &:hover {
+      background: #365A49;
+      color: #fff;
+    }
+  }
+
+  &--bg--green {
+    background: #365A49;
+    color: #fff;
+    margin-right: rem(22px);
+
+    &:hover {
+      background: #fff;
+      color: #2E4E3F;
+    }
+  }
+
+  &--bg--green--mr {
+    background: #365A49;
+    color: #fff;
+    padding: rem(21px) rem(41px);
+
+    &:hover {
+      background: #2E4E3F;
+    }
+  }
+
+  &--bg--light--green {
+    background: #497870;
+    color: #fff;
+
+    &:hover {
+      background: #2E4E3F;
+      color: #fff;
+    }
+  }
+
+  &--bg--transparent {
+    background: transparent;
+    color: #497870;
+    font-weight: normal;
+    font-size: rem(18px);
+    text-transform: none;
+    padding: 0;
+
+    &:hover {
+      color: #2E4E3F;
+    }
+  }
+}

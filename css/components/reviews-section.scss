@@ -1,0 +1,22 @@
+.reviews-section {
+  position: relative;
+  background: url("./../../img/berryandnuts.png") right 5% top 16% no-repeat;
+
+  @include phones {
+    background-position: right 5% top 3%;
+  }
+
+  &::after {
+    content: url("./../../img/blueberry.png");
+    position: absolute;
+    bottom: rem(-90px);
+    left: 0;
+  }
+
+  &::before {
+    content: url("./../../img/leaf3.png");
+    position: absolute;
+    bottom: rem(-160px);
+    left: 0;
+  }
+}

@@ -1,0 +1,16 @@
+.dignity {
+  display: flex;
+}
+
+.dignity__icon {
+  margin-right: rem(6px);
+  width: rem(41px);
+  height: rem(41px);
+  fill: #C6F7FF;
+}
+
+.dignity__text {
+  font-size: rem(16px);
+  max-width: rem(85px);
+  line-height: 1.15;
+}

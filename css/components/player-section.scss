@@ -1,0 +1,41 @@
+.player-section {
+  position: relative;
+
+  &::before {
+    content: url("./../../img/blackberry_how.png");
+    position: absolute;
+    right: 0;
+    bottom: -14%; 
+  }
+}
+
+.player-section__container {
+  height: rem(392px);
+  width: rem(658px);
+  margin: 0 auto;
+  position: relative;
+
+  @include tablets {
+    width: rem(594px);
+    height: rem(352px);
+  }
+
+  @include phones {
+    width: rem(394px);
+    height: rem(233px);
+  }
+
+  &::before {
+    content: url("./../../img/leaf_how.png");
+    position: absolute;
+    bottom: -12%;
+    left: -20%;
+  }
+
+  &::after {
+    content: url("./../../img/blur_leaf_how.png");
+    position: absolute;
+    top: -20%;
+    right: -18%;
+  }
+}

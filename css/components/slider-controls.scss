@@ -1,0 +1,43 @@
+.slider-controls {
+  display: flex;
+  align-items: center;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+
+  @include tablets {
+    top: 26%;
+  }
+
+  @include phones {
+    top: 18%;
+  }
+
+  &--next {
+    right: rem(-22px);
+
+    @include tablets {
+      right: rem(90px);
+    }
+
+    @include phones {
+      right: 0;
+    }
+  }
+
+  &--prev {
+    left: rem(-22px);
+    transform: rotate(180deg);
+
+    @include tablets {
+      left: rem(90px);
+    }
+
+    @include phones {
+      left: 0;
+    }
+  }
+}
+

@@ -1,0 +1,25 @@
+.order-section {
+  background: url("./../../img/orderbg.png") center center / cover no-repeat;
+  position: relative;
+  z-index: -1;
+
+  @include tablets {
+    &::after, &::before {
+      display: none;
+    }
+  }
+
+  &::after {
+    content: url("./../../img/blueberryorder.png");
+    left: rem(30px);
+    bottom: rem(50px);
+    position: absolute;
+  }
+
+  &::before {
+    content: url("./../../img/leaforder.png");
+    right: rem(20px);
+    bottom: rem(70px);
+    position: absolute;
+  }
+}

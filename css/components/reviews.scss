@@ -1,0 +1,131 @@
+.reviews__display {
+  background: #F8FAF9;
+  padding: rem(36px);
+  margin-bottom: rem(20px);
+  overflow: hidden;
+  position: relative;
+
+  @include tablets {
+    margin-bottom: rem(43px);
+    padding: rem(36px) rem(10px);
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: rem(84px);
+    width: rem(84px);
+    background: #fff;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: rem(-65px);
+  }
+
+  &::before {
+    content: url("./../../img/bawberry.png");
+    position: absolute;
+    right: 0;
+    top: rem(25px);
+
+    @include tablets {
+      top: 0;
+      right: 0;
+    }
+  }
+}
+
+.reviews__list {
+  position: relative;
+  min-height: 280px;
+}
+
+.reviews__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.reviews__item.active {
+    position: static;
+    opacity: 1;
+    pointer-events: unset;
+  }
+
+.reviews__display-inner {
+  display: flex;
+
+  @include tablets {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.reviews__avatar {
+  width: rem(253px);
+  height: rem(264px);
+  
+  @include tablets {
+    width: rem(130px);
+    height: rem(130px);
+    margin-bottom: rem(34px);
+  }
+}
+
+.reviews__avatar-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.reviews__content {
+  margin-left: rem(41px);
+  width: 51%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  @include tablets {
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.reviews__title {
+  font-size: rem(27px);
+  font-weight: bold;
+  color: $black;
+  margin-bottom: rem(9px);
+
+  @include tablets {
+    margin-bottom: rem(15px);
+  }
+}
+
+.reviews__text {
+  margin-bottom: rem(22px);
+  line-height: 1.3;
+
+  @include tablets {
+    margin-bottom: rem(10px);
+  }
+}
+
+.reviews__author-name {
+  font-weight: 500;
+  color: $black;
+}
+
+.reviews__switcher {
+  display: flex;
+  justify-content: center;
+}

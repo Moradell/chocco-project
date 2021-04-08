@@ -1,0 +1,11 @@
+.dignities {
+  display: flex;
+}
+
+.dignities__item {
+  margin-right: rem(39px);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
