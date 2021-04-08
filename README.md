@@ -1,11 +1,12 @@
 # Chocco-project
 
 Посмотреть проект можно на [GitHub Pages](https://moradell.github.io/chocco-project/)
+Проект адаптирован, присутствует два ключевых брейкпоинта - 768px и 480px, все что между - responsive
 
 ## Навигация по документу
 * [Стэк проекта](#stack)
 * [Краткое описание всех секций проекта](#description)
-* [Теже секции, но в адаптивном варианте](#description-adaptive)
+* [Секции после преодоления брейкпоинта 768px](#description-adaptive)
 
 ### <a name="stack"></a>В проекте используются:
 * HTML5 && CSS3
