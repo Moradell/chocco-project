@@ -78,7 +78,7 @@ img {
 }
 
 .hero {
-  background: url("./../../img/fern.png") right bottom no-repeat;
+  background: url("./../img/fern.png") right bottom no-repeat;
   background-color: #61C4D9;
   color: #fff;
   height: 100%;
@@ -96,13 +96,13 @@ img {
   }
 }
 .hero::before {
-  content: url("./../../img/leaf.png");
+  content: url("./../img/leaf.png");
   position: absolute;
   bottom: -2.2222222222rem;
   left: 2%;
 }
 .hero::after {
-  content: url("./../../img/leafberry.png");
+  content: url("./../img/leafberry.png");
   position: absolute;
   bottom: -2.2222222222rem;
   right: 0;
@@ -114,7 +114,7 @@ img {
   justify-content: space-between;
   height: 100%;
   padding: 1.3888888889rem 0 2.7777777778rem;
-  background: url("./../../img/chocolate.png") right center/50% auto no-repeat;
+  background: url("./../img/chocolate.png") right center/50% auto no-repeat;
 }
 @media screen and (max-width: 768px) {
   .hero__container {
@@ -140,7 +140,7 @@ img {
     content: "";
     width: 18.0555555556rem;
     height: 18.7777777778rem;
-    background: url("./../../img/berrychocco.png") center center/contain no-repeat;
+    background: url("./../img/berrychocco.png") center center/contain no-repeat;
     margin-bottom: 0.9444444444rem;
   }
 }
@@ -471,7 +471,7 @@ img {
   }
 }
 .benefits__item::before {
-  content: url("./../../img/separator.png");
+  content: url("./../img/separator.png");
   position: absolute;
   top: 3.3333333333rem;
   right: 0;
@@ -586,7 +586,7 @@ img {
 
 .benefits-section {
   position: relative;
-  background: url("./../../img/leaf2.png") left top 50% no-repeat;
+  background: url("./../img/leaf2.png") left top 50% no-repeat;
 }
 @media screen and (max-width: 768px) {
   .benefits-section {
@@ -599,7 +599,7 @@ img {
   }
 }
 .benefits-section::before {
-  content: url(./../../img/berry.png);
+  content: url(./../img/berry.png);
   position: absolute;
   bottom: -4.4444444444rem;
   left: 0;
@@ -641,7 +641,7 @@ img {
   top: -3.6111111111rem;
 }
 .reviews__display::before {
-  content: url("./../../img/bawberry.png");
+  content: url("./../img/bawberry.png");
   position: absolute;
   right: 0;
   top: 1.3888888889rem;
@@ -786,7 +786,7 @@ img {
 
 .reviews-section {
   position: relative;
-  background: url("./../../img/berryandnuts.png") right 5% top 16% no-repeat;
+  background: url("./../img/berryandnuts.png") right 5% top 16% no-repeat;
 }
 @media screen and (max-width: 480px) {
   .reviews-section {
@@ -794,7 +794,7 @@ img {
   }
 }
 .reviews-section::after {
-  content: url("./../../img/blueberry.png");
+  content: url("./../img/blueberry.png");
   position: absolute;
   bottom: -5rem;
   left: 0;
@@ -807,7 +807,7 @@ img {
 }
 
 .order-section {
-  background: url("./../../img/orderbg.png") center center/cover no-repeat;
+  background: url("./../img/orderbg.png") center center/cover no-repeat;
   position: relative;
   z-index: -1;
 }
@@ -817,13 +817,13 @@ img {
   }
 }
 .order-section::after {
-  content: url("./../../img/blueberryorder.png");
+  content: url("./../img/blueberryorder.png");
   left: 1.6666666667rem;
   bottom: 2.7777777778rem;
   position: absolute;
 }
 .order-section::before {
-  content: url("./../../img/leaforder.png");
+  content: url("./../img/leaforder.png");
   right: 1.1111111111rem;
   bottom: 3.8888888889rem;
   position: absolute;
@@ -972,7 +972,7 @@ img {
   border-radius: 0.2777777778rem;
 }
 .radio--checkbox .radio__visible::before {
-  background: url("./../../img/check.png") center center no-repeat;
+  background: url("./../img/check.png") center center no-repeat;
 }
 
 .radio__elem {
@@ -1177,13 +1177,13 @@ img {
   position: relative;
 }
 .slider-section::before {
-  content: url("./../../img/fon_fern.png");
+  content: url("./../img/fon_fern.png");
   position: absolute;
   right: 0px;
   bottom: -17%;
 }
 .slider-section::after {
-  content: url("./../../img/blueberry_prod.png");
+  content: url("./../img/blueberry_prod.png");
   position: absolute;
   right: 0;
   bottom: -8%;
@@ -1199,7 +1199,7 @@ img {
   }
 }
 .product::before {
-  content: url("./../../img/leaf_product2.png");
+  content: url("./../img/leaf_product2.png");
   position: absolute;
   left: 2%;
   top: 27%;
@@ -1217,7 +1217,7 @@ img {
   }
 }
 .product::after {
-  content: url("./../../img/leaf_product.png");
+  content: url("./../img/leaf_product.png");
   position: absolute;
   bottom: 0%;
   left: 35%;
@@ -1586,12 +1586,12 @@ img {
 }
 
 .products-menu-section {
-  background: url("./../../img/Slider.png") center center/cover no-repeat;
+  background: url("./../img/Slider.png") center center/cover no-repeat;
   position: relative;
   color: #fff;
 }
 .products-menu-section::after {
-  content: url("./../../img/resberry_menu.png");
+  content: url("./../img/resberry_menu.png");
   position: absolute;
   top: -3.6111111111rem;
   left: 1.9444444444rem;
@@ -1713,7 +1713,7 @@ img {
   position: absolute;
   height: 21.7777777778rem;
   width: 36.5555555556rem;
-  background: url("./../../img/video_splash.png") center center/cover no-repeat;
+  background: url("./../img/video_splash.png") center center/cover no-repeat;
 }
 @media screen and (max-width: 768px) {
   .player__splash {
@@ -1846,7 +1846,7 @@ img {
   position: relative;
 }
 .player-section::before {
-  content: url("./../../img/blackberry_how.png");
+  content: url("./../img/blackberry_how.png");
   position: absolute;
   right: 0;
   bottom: -14%;
@@ -1871,13 +1871,13 @@ img {
   }
 }
 .player-section__container::before {
-  content: url("./../../img/leaf_how.png");
+  content: url("./../img/leaf_how.png");
   position: absolute;
   bottom: -12%;
   left: -20%;
 }
 .player-section__container::after {
-  content: url("./../../img/blur_leaf_how.png");
+  content: url("./../img/blur_leaf_how.png");
   position: absolute;
   top: -20%;
   right: -18%;
