@@ -5,6 +5,5 @@
 ## В проекте используются:
 * Sass (scss)
 * jQuery 
-* API
-1. [YouTube](https://developers.google.com/youtube)
-2. [Yandex maps](https://yandex.ru/dev/maps/)
+* [YouTube API](https://developers.google.com/youtube)
+* [Yandex maps API](https://yandex.ru/dev/maps/)
