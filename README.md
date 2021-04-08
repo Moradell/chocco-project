@@ -6,5 +6,5 @@
 * Sass (scss)
 * jQuery 
 * API:
-  *[YouTube](https://developers.google.com/youtube)
-  *[Yandex maps](https://yandex.ru/dev/maps/)
+1.[YouTube](https://developers.google.com/youtube)
+2.[Yandex maps](https://yandex.ru/dev/maps/)
