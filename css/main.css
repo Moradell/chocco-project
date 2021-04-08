@@ -308,7 +308,7 @@ img {
   transform: rotate(45deg);
 }
 .burger--active .burger__line:nth-child(3) {
-  transform: rotate(-45deg) translateY(-8px) translateX(5px);
+  transform: rotate(-45deg) translateY(-6px) translateX(7px);
 }
 
 .dignities {
