@@ -29,3 +29,24 @@
 4. В четвертой секции представлены мини-профайлы команды, аккардеон реализован простым добавлением высоты для компонентов текста, которая по умолчанию 0
 
 ![team-section](https://user-images.githubusercontent.com/29666697/113998335-51d27800-989c-11eb-9bcc-600203080689.png)
+
+5. В пятой секции представлен очередной аккардеон, но в этот раз вертикальный
+
+![menu-section-1](https://user-images.githubusercontent.com/29666697/114001912-bcd17e00-989f-11eb-9354-6324a9b1dddc.png)
+![menu-section-2](https://user-images.githubusercontent.com/29666697/114001988-ce1a8a80-989f-11eb-9180-0058237cca61.png)
+
+6. Шестая секция - с отзывами
+
+![reviews-section](https://user-images.githubusercontent.com/29666697/114002305-176ada00-98a0-11eb-9d34-e6182a282e59.png)
+
+7. В седьмой секции расположился кастомный видео-проигрыватель. Реализован при помощи [YouTube API](https://developers.google.com/youtube), ползунок громкости, как и полоска воспроизведения это обычные html элементы, но по средствам js|jQuery синхранизированные с API
+
+![video-section](https://user-images.githubusercontent.com/29666697/114003591-361da080-98a1-11eb-813e-bbbd90db8c6e.png)
+
+8. Восьмая секция. Экран заказа. При отправке формы, делается запрос на сервер и он "рандомно" вернет ответ, в зависимости от которого появится одно из двух сообщений. (Сообщение выведется в виде модального окна, которое реализовано при помощи [fancybox](https://www.fancyapps.com/fancybox/3/))
+
+![order-section](https://user-images.githubusercontent.com/29666697/114004960-7893ad00-98a2-11eb-977d-4dab0d78c1e9.png)
+
+9. Девятая секция. Секция с картой, совмещена с footer'ом. Карта вставлена по средствам [Yandex maps API](https://yandex.ru/dev/maps/), пины аналогично. 
+
+![map-section](https://user-images.githubusercontent.com/29666697/114005073-8e08d700-98a2-11eb-8f09-9674f788918c.png)
