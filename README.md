@@ -3,6 +3,7 @@
 Посмотреть проект можно на [GitHub Pages](https://moradell.github.io/chocco-project/)
 
 ### В проекте используются:
+* HTML5 && CSS3
 * Sass (scss)
 * jQuery 
 * [bxslider](https://bxslider.com/) для реализации слайдера
