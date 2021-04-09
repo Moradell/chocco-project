@@ -11,9 +11,9 @@
 
 ### <a name="stack"></a>В проекте используются:
 * HTML5 && CSS3
-* БЭМ
 * Sass (scss)
 * jQuery 
+* БЭМ
 * [bxslider](https://bxslider.com/) 
 * [fancybox](https://www.fancyapps.com/fancybox/3/) 
 * [YouTube API](https://developers.google.com/youtube)
