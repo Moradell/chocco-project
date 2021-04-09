@@ -11,6 +11,7 @@
 
 ### <a name="stack"></a>В проекте используются:
 * HTML5 && CSS3
+* БЭМ
 * Sass (scss)
 * jQuery 
 * [bxslider](https://bxslider.com/) 
