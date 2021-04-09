@@ -12,8 +12,8 @@
 * HTML5 && CSS3
 * Sass (scss)
 * jQuery 
-* [bxslider](https://bxslider.com/) для реализации слайдера
-* [fancybox](https://www.fancyapps.com/fancybox/3/) для более гибкого вызова модального окна в секции формы
+* [bxslider](https://bxslider.com/) 
+* [fancybox](https://www.fancyapps.com/fancybox/3/) 
 * [YouTube API](https://developers.google.com/youtube)
 * [Yandex maps API](https://yandex.ru/dev/maps/)
 
